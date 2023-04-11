@@ -1,0 +1,42 @@
+*{
+    font-family: fantasy;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.card1,.card2{
+    height: 200px;
+    width: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.card1{
+    border: 3px solid black;
+    background-color: brown;
+}
+.card2{
+    border: 3px ridge green;
+    background-color: aquamarine;
+    font-family: monospace;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+
+.compo{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;   
+}
